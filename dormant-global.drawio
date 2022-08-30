@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T08:07:36.324Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6XdUNQjxgOoHXSERCehd" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-30T08:08:23.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="baxVsy0T89I0IwyLQ4tD" version="20.2.7" type="github">
   <diagram id="j-HlEmfjcot27JiB0SU6" name="第 1 页">
     <mxGraphModel dx="1128" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -18,20 +18,25 @@
         <mxCell id="FO3pdwqt9bGEdR7zpiER-5" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;是否允许久悬：false&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;上次久悬预警日期&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=0;imageAspect=1;absoluteArcSize=0;noLabel=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="550" y="110" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FO3pdwqt9bGEdR7zpiER-7">
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FO3pdwqt9bGEdR7zpiER-7" target="FO3pdwqt9bGEdR7zpiER-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="450" y="230" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="420" y="230" />
-              <mxPoint x="420" y="230" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FO3pdwqt9bGEdR7zpiER-7" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="270" y="200" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FO3pdwqt9bGEdR7zpiER-9" target="FO3pdwqt9bGEdR7zpiER-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="229.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FO3pdwqt9bGEdR7zpiER-9" value="提交久悬保留申请" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="210" width="110" height="40" as="geometry" />
+          <mxGeometry x="350" y="210" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-11" value="提交久悬保留申请" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="210" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
