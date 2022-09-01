@@ -1,129 +1,129 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T09:24:33.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="kd2bIMt9X3oFR0ai8-Np" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-01T07:52:03.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ESsC7n0IZBjvYKmRTBOM" version="20.2.4" type="github">
   <diagram id="j-HlEmfjcot27JiB0SU6" name="第 1 页">
-    <mxGraphModel dx="1128" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1363" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FO3pdwqt9bGEdR7zpiER-2" target="FO3pdwqt9bGEdR7zpiER-16">
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FO3pdwqt9bGEdR7zpiER-2" target="FO3pdwqt9bGEdR7zpiER-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-2" value="监控系统预警" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-2" value="监控系统预警" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="130" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-4" value="反写银行账户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="130" width="110" height="40" as="geometry" />
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-4" value="反写银行账户" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="130" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-5" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;是否允许久悬：false&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;上次久悬预警日期&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=0;imageAspect=1;absoluteArcSize=0;noLabel=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="900" y="160" width="180" height="60" as="geometry" />
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-5" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;是否允许久悬：false&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;上次久悬预警日期&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=0;imageAspect=1;absoluteArcSize=0;noLabel=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="910" y="160" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FO3pdwqt9bGEdR7zpiER-7" target="FO3pdwqt9bGEdR7zpiER-9">
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="FO3pdwqt9bGEdR7zpiER-7" target="FO3pdwqt9bGEdR7zpiER-9" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="300" as="targetPoint" />
+            <mxPoint x="370" y="370" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-7" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="190" y="270" width="30" height="60" as="geometry" />
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-7" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="190" y="340" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FO3pdwqt9bGEdR7zpiER-9" target="FO3pdwqt9bGEdR7zpiER-11">
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FO3pdwqt9bGEdR7zpiER-9" target="FO3pdwqt9bGEdR7zpiER-11" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="299.9999999999999" as="targetPoint" />
+            <mxPoint x="510" y="369.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-9" value="提交久悬保留申请" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="280" width="110" height="40" as="geometry" />
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-9" value="提交久悬保留申请" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="350" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FO3pdwqt9bGEdR7zpiER-11" target="FO3pdwqt9bGEdR7zpiER-13">
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FO3pdwqt9bGEdR7zpiER-11" target="FO3pdwqt9bGEdR7zpiER-13" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="299.9999999999999" as="targetPoint" />
+            <mxPoint x="620" y="369.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-11" value="审批" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="280" width="110" height="40" as="geometry" />
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-11" value="审批" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="350" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FO3pdwqt9bGEdR7zpiER-13" target="FO3pdwqt9bGEdR7zpiER-29">
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FO3pdwqt9bGEdR7zpiER-13" target="FO3pdwqt9bGEdR7zpiER-29" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="920" y="299.9999999999999" as="targetPoint" />
+            <mxPoint x="920" y="369.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-13" value="反写银行账户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="280" width="110" height="40" as="geometry" />
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-13" value="反写银行账户" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="350" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-14" value="&lt;ul&gt;&lt;li&gt;久悬保留原因&lt;/li&gt;&lt;li&gt;预计销户日期&lt;/li&gt;&lt;li&gt;是否允许久悬：true&lt;/li&gt;&lt;li&gt;上次久悬预警日期：null&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=0;imageAspect=1;absoluteArcSize=0;noLabel=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="680" y="310" width="180" height="80" as="geometry" />
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-14" value="&lt;ul&gt;&lt;li&gt;久悬保留原因&lt;/li&gt;&lt;li&gt;预计销户日期&lt;/li&gt;&lt;li&gt;是否允许久悬：true&lt;/li&gt;&lt;li&gt;上次久悬预警日期：null&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=0;imageAspect=1;absoluteArcSize=0;noLabel=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="680" y="380" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FO3pdwqt9bGEdR7zpiER-16" target="FO3pdwqt9bGEdR7zpiER-19">
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FO3pdwqt9bGEdR7zpiER-16" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="650" y="150" as="targetPoint" />
+            <mxPoint x="670" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-16" value="过滤银行账户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-16" value="过滤银行账户" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="130" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-17" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;是否允许久悬：true&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;预计销户日期&amp;lt;当前日期&lt;br&gt;&lt;/li&gt;&lt;li&gt;交易明细间隔6个月&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=0;imageAspect=1;absoluteArcSize=0;noLabel=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="450" y="160" width="180" height="60" as="geometry" />
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-17" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;是否允许久悬：true&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;预计销户日期&amp;lt;当前日期&lt;br&gt;&lt;/li&gt;&lt;li&gt;or&lt;/li&gt;&lt;li&gt;是否允许久悬：false&lt;/li&gt;&lt;li&gt;交易明细间隔6个月&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=0;imageAspect=1;absoluteArcSize=0;noLabel=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="430" y="160" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FO3pdwqt9bGEdR7zpiER-19" target="FO3pdwqt9bGEdR7zpiER-4">
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FO3pdwqt9bGEdR7zpiER-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="559.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-21" value="久悬户自动&lt;br&gt;冻结任务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="540" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FO3pdwqt9bGEdR7zpiER-23" target="FO3pdwqt9bGEdR7zpiER-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="559.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-23" value="过滤银行账户" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="540" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-24" value="&lt;ul&gt;&lt;li&gt;上次久悬预警日期-当前&amp;gt;90天&lt;/li&gt;&lt;li&gt;未发起过保留申请&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=0;imageAspect=1;absoluteArcSize=0;noLabel=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="470" y="570" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-26" value="冻结银行账户" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="540" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FO3pdwqt9bGEdR7zpiER-29" target="FO3pdwqt9bGEdR7zpiER-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="369.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FO3pdwqt9bGEdR7zpiER-29" target="FO3pdwqt9bGEdR7zpiER-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-19" value="过滤银行账户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="130" width="110" height="40" as="geometry" />
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-29" value="账户是&lt;br&gt;否冻结" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="920" y="330" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FO3pdwqt9bGEdR7zpiER-21">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="459.9999999999999" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-32" value="解冻账户" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="905" y="440" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-21" value="久悬户自动&lt;br&gt;冻结任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="440" width="110" height="40" as="geometry" />
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-34" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="950" y="410" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FO3pdwqt9bGEdR7zpiER-23" target="FO3pdwqt9bGEdR7zpiER-26">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="810" y="459.9999999999999" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-35" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="350" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-23" value="过滤银行账户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="440" width="110" height="40" as="geometry" />
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-36" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="355" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-24" value="&lt;ul&gt;&lt;li&gt;上次久悬预警日期-当前&amp;gt;90天&lt;/li&gt;&lt;li&gt;未发起过保留申请&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=0;imageAspect=1;absoluteArcSize=0;noLabel=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="470" y="470" width="200" height="60" as="geometry" />
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-38" value="久悬户保留申请流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="360" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-26" value="冻结银行账户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="440" width="110" height="40" as="geometry" />
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-39" value="监控系统处理流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="135" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FO3pdwqt9bGEdR7zpiER-29" target="FO3pdwqt9bGEdR7zpiER-36">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1050" y="299.9999999999999" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="FO3pdwqt9bGEdR7zpiER-40" value="自动冻结处理流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="545" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FO3pdwqt9bGEdR7zpiER-29" target="FO3pdwqt9bGEdR7zpiER-32">
+        <mxCell id="e47o_0rbGWFAdw2N45oj-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e47o_0rbGWFAdw2N45oj-1" target="FO3pdwqt9bGEdR7zpiER-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-29" value="账户是&lt;br&gt;否冻结" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="920" y="260" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-32" value="解冻账户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="905" y="370" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-34" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="950" y="340" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-35" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="280" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-36" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="285" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-38" value="久悬户保留申请流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="290" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-39" value="监控系统处理流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="140" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="FO3pdwqt9bGEdR7zpiER-40" value="自动冻结处理流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="445" width="120" height="30" as="geometry" />
+        <mxCell id="e47o_0rbGWFAdw2N45oj-1" value="发送消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="130" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
