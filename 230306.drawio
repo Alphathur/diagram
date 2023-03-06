@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T15:51:03.133Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="a5fESHdQ_I9fEXTDTxny" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-06T15:56:23.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="A8hRub5CHN8Kxs_i2FBJ" version="20.3.2" type="github">
   <diagram id="Xhf_V60VqL-blBnn5I0N" name="第 1 页">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -334,6 +334,15 @@
             <mxPoint x="1020" y="1010" as="sourcePoint" />
             <mxPoint x="1100" y="1040" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="khTBBQ2TNIfmZg84Ai6I-141" value="api : http://eas.xxx/a&lt;br&gt;api : http://eas.xxx/b&lt;br&gt;api : http://eas.xxx/c&lt;br&gt;api : http://eas.xxx/d" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="840" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="khTBBQ2TNIfmZg84Ai6I-142" value="api : http://ierp.xxx/a&lt;br&gt;api : http://ierp.xxx/b&lt;br&gt;api : http://ierp.xxx/c&lt;br&gt;api : http://ierp.xxx/d" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="996.2" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="khTBBQ2TNIfmZg84Ai6I-143" value="api : http://kjyq.xxx/x.wsdl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="920" width="140" height="32.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
