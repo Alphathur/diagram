@@ -43,9 +43,6 @@
             <mxPoint x="410" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wb5-phn52fAKyjuLASKI-18" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;rotation=0;" value="" vertex="1">
-          <mxGeometry height="70" width="100" x="80" y="670" as="geometry" />
-        </mxCell>
         <mxCell id="wb5-phn52fAKyjuLASKI-26" edge="1" parent="1" source="wb5-phn52fAKyjuLASKI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wb5-phn52fAKyjuLASKI-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -56,7 +53,7 @@
           <mxGeometry height="70" width="100" x="610" y="670" as="geometry" />
         </mxCell>
         <mxCell id="wb5-phn52fAKyjuLASKI-27" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=6;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;日常迭代：从PATCH分支出包，在SIT环境验证&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;质量，验证完成后再发布生产，每次版本发布后&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;开发经理需将PATCH分支打上对应的tag标签。&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="240" x="560" y="240" as="geometry" />
+          <mxGeometry height="100" width="240" x="560" y="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
