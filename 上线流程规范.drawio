@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="Xrs2QvBXmd4VUaa_IBm9">
-    <mxGraphModel dx="1414" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="896" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,64 +53,90 @@
           <mxGeometry height="70" width="100" x="610" y="670" as="geometry" />
         </mxCell>
         <mxCell id="wb5-phn52fAKyjuLASKI-27" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=6;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;日常迭代：从PATCH分支出包，在SIT环境验证&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;质量，验证完成后再发布生产，每次版本发布后&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;开发经理需将PATCH分支打上对应的tag标签。&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="240" x="560" y="260" as="geometry" />
+          <mxGeometry height="100" width="240" x="440" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="wb5-phn52fAKyjuLASKI-28" edge="1" parent="1" source="wb5-phn52fAKyjuLASKI-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wb5-phn52fAKyjuLASKI-31">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="wb5-phn52fAKyjuLASKI-28" edge="1" parent="1" source="wb5-phn52fAKyjuLASKI-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.567;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" target="wb5-phn52fAKyjuLASKI-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1268" y="515" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="wb5-phn52fAKyjuLASKI-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PATCH" vertex="1">
           <mxGeometry height="60" width="120" x="1208" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="wb5-phn52fAKyjuLASKI-30" edge="1" parent="1" source="wb5-phn52fAKyjuLASKI-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wb5-phn52fAKyjuLASKI-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wb5-phn52fAKyjuLASKI-31" parent="1" style="shape=card;whiteSpace=wrap;html=1;" value="PATCH补丁" vertex="1">
-          <mxGeometry height="70" width="120" x="1208" y="515" as="geometry" />
-        </mxCell>
-        <mxCell id="wb5-phn52fAKyjuLASKI-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;task_xxx&lt;/font&gt;" vertex="1">
-          <mxGeometry height="40" width="120" x="1054" y="320" as="geometry" />
-        </mxCell>
-        <mxCell id="wb5-phn52fAKyjuLASKI-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+        <mxCell id="wb5-phn52fAKyjuLASKI-33" edge="1" parent="1" source="wb5-phn52fAKyjuLASKI-42" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1270" y="230" as="sourcePoint" />
-            <mxPoint x="1000" y="270" as="targetPoint" />
+            <mxPoint x="1040" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wb5-phn52fAKyjuLASKI-34" edge="1" parent="1" source="wb5-phn52fAKyjuLASKI-32" style="endArrow=none;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1134" y="350" as="sourcePoint" />
-            <mxPoint x="1114" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wb5-phn52fAKyjuLASKI-35" edge="1" parent="1" source="wb5-phn52fAKyjuLASKI-32" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1124" y="370" as="sourcePoint" />
-            <mxPoint x="1114" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wb5-phn52fAKyjuLASKI-36" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1114" y="400" as="sourcePoint" />
-            <mxPoint x="1264" y="480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wb5-phn52fAKyjuLASKI-37" edge="1" parent="1" source="wb5-phn52fAKyjuLASKI-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wb5-phn52fAKyjuLASKI-39">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wb5-phn52fAKyjuLASKI-38" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;rotation=0;" value="SIT环境" vertex="1">
-          <mxGeometry height="70" width="100" x="1218" y="670" as="geometry" />
-        </mxCell>
-        <mxCell id="wb5-phn52fAKyjuLASKI-39" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;rotation=0;" value="PROD环境" vertex="1">
-          <mxGeometry height="70" width="100" x="1464" y="670" as="geometry" />
-        </mxCell>
-        <mxCell id="wb5-phn52fAKyjuLASKI-40" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=6;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;日常迭代：从PATCH分支出包，在SIT环境验证&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;质量，验证完成后再发布生产，每次版本发布后&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;开发经理需将PATCH分支打上对应的tag标签。&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="240" x="1414" y="260" as="geometry" />
+        <mxCell id="wb5-phn52fAKyjuLASKI-40" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=6;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;HOTFIX分支从生产TAG来（TAG要&lt;/span&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;与生产一致），处理完成，在生产&lt;/span&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;环境部署验证通过后，需要在HOT&lt;/span&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;FIX发布分支上打TAG，将分支代&lt;/span&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;码合入PATCH。&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="89" width="255" x="1330" y="276" as="geometry" />
         </mxCell>
         <mxCell id="wb5-phn52fAKyjuLASKI-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HOTFIX_xxx" vertex="1">
           <mxGeometry height="60" width="120" x="980" y="140" as="geometry" />
         </mxCell>
         <mxCell id="wb5-phn52fAKyjuLASKI-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TAG" vertex="1">
           <mxGeometry height="30" width="60" x="1270" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-phn52fAKyjuLASKI-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;task_xxx&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="840" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-phn52fAKyjuLASKI-47" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1040" y="280" as="sourcePoint" />
+            <mxPoint x="900" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wb5-phn52fAKyjuLASKI-48" edge="1" parent="1" source="wb5-phn52fAKyjuLASKI-46" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1010" y="490" as="sourcePoint" />
+            <mxPoint x="900" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wb5-phn52fAKyjuLASKI-49" edge="1" parent="1" source="wb5-phn52fAKyjuLASKI-46" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="899.5" y="390" as="sourcePoint" />
+            <mxPoint x="899.5" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wb5-phn52fAKyjuLASKI-50" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="900" y="420" as="sourcePoint" />
+            <mxPoint x="1040" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wb5-phn52fAKyjuLASKI-51" parent="1" style="shape=card;whiteSpace=wrap;html=1;" value="HOTFIX补丁" vertex="1">
+          <mxGeometry height="70" width="120" x="980" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-phn52fAKyjuLASKI-55" edge="1" parent="1" source="wb5-phn52fAKyjuLASKI-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wb5-phn52fAKyjuLASKI-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-phn52fAKyjuLASKI-56" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;rotation=0;" value="SIT环境" vertex="1">
+          <mxGeometry height="70" width="100" x="1230" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-phn52fAKyjuLASKI-57" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;rotation=0;" value="PROD环境" vertex="1">
+          <mxGeometry height="70" width="100" x="1476" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-phn52fAKyjuLASKI-58" edge="1" parent="1" source="wb5-phn52fAKyjuLASKI-51" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="990" y="250" as="sourcePoint" />
+            <mxPoint x="1040" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wb5-phn52fAKyjuLASKI-61" parent="1" style="shape=card;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;" value="PATCH补丁" vertex="1">
+          <mxGeometry height="70" width="120" x="1200" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-phn52fAKyjuLASKI-63" edge="1" parent="1" source="wb5-phn52fAKyjuLASKI-61" style="endArrow=classic;html=1;rounded=0;entryX=0.48;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#CCCCCC;exitX=0.642;exitY=1.011;exitDx=0;exitDy=0;exitPerimeter=0;" target="wb5-phn52fAKyjuLASKI-56" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1290" y="600" as="sourcePoint" />
+            <mxPoint x="1350" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wb5-phn52fAKyjuLASKI-64" edge="1" parent="1" source="wb5-phn52fAKyjuLASKI-51" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0.3;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="wb5-phn52fAKyjuLASKI-56" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1040" y="640" as="sourcePoint" />
+            <mxPoint x="1170" y="440" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
